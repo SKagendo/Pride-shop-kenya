@@ -1,0 +1,71 @@
+ .jump > img {
+        float:left;
+        margin: 0px 10px 20px 0px;
+        padding: 10px;
+        display:flex;
+        align-items: center;
+}
+.right > img{
+        float:left;
+        margin: 0px 20px 20px 0px;
+        padding: 10px;
+        }
+.left > img{
+
+        float:left;
+        margin: 0px 20px 20px 0px;
+        padding: 10px;
+        }
+.center > img{
+        float:left;
+        margin: 0px 10px 20px 0px;
+        padding: 10px;
+        display: flex;
+}
+.climb > img{
+    float:right;
+        margin: 0px 10px 20px 0px;
+        padding: 10px;
+}
+body{
+    width:80%;
+    height:200px;
+    margin: 30px;
+    padding:35px;
+    background-color:#5a5858;
+    background-image: url("logo.jpg");
+}
+h4{
+    font-size:30px;
+    align-content: center;
+}
+h5{
+    font-size:30px;
+    align-content: center;
+}
+h6{
+    font-size:30px;
+    align-content: center;
+}
+footer{
+    color:red;
+    display:flex;
+}
+nav{
+    display: inline-block;
+}
+nav ul li{
+    display: inline;
+    flex-direction: row;
+    padding: 40px 40px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+opacity: 0.3;
+color: blue;
+transition: 0.5s;
+}
+nav ul li a{
+    text-decoration: none;
+}
